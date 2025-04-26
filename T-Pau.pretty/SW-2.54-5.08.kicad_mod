@@ -1,4 +1,4 @@
-(footprint "SS2513"
+(footprint "SW-2.54-5.08"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "SS2513"
+	(property "Value" "SW-2.54-5.08"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
