@@ -1,0 +1,187 @@
+(footprint "SW_Apem_SS-25136-NH"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 5.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2fde9e53-4ad3-4610-9e12-d145607abcb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SW_Apem_SS-25136-NH"
+		(at 0 7.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c46a8ef1-c290-47e6-b7a8-0f24681a5ef5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://download.datasheets.com/pdfs2/2023/6/4/1/6/50/588467/apem_/auto/pcb-slideswitches-serie-25000n.pdf"
+		(at 0 6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09d7d157-0d6f-4402-a4a0-e7e21fea1e66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7afdbaf7-f77c-418a-bb17-5fc6058fac40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7 -3.685)
+		(end -7 -2.415)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3657ffda-bae6-42f0-a326-c0f666484735")
+	)
+	(fp_line
+		(start -5.73 -3.685)
+		(end -7 -3.685)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "920c3680-9c44-4c0b-8b08-0a328d4ffa31")
+	)
+	(fp_line
+		(start 5.73 3.7)
+		(end 7 3.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f048752c-7042-46ea-a9b0-74e4ffc948c2")
+	)
+	(fp_line
+		(start 7 3.7)
+		(end 7 2.43)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5dbabb96-5099-45e7-8ce1-5fdec1c5ab3c")
+	)
+	(fp_rect
+		(start -7.05 -3.75)
+		(end 7.05 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7c3c5c73-4f80-4572-b6c5-eed1055a15d6")
+	)
+	(fp_line
+		(start -2.6 -1.5)
+		(end -2.6 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98a485f2-a5fb-42ba-aecd-a83ea1df85cb")
+	)
+	(fp_line
+		(start -1.6 -1.5)
+		(end -1.6 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed2af150-99d7-4d58-a6c5-a629223b2084")
+	)
+	(fp_rect
+		(start -3.6 -1.5)
+		(end -0.6 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6cfe6a32-7102-487e-9ded-bd452a6ab33c")
+	)
+	(fp_rect
+		(start -3.6 -1.5)
+		(end 3.6 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "305ed051-a556-4374-97b8-dc8ad9887422")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 8.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7b57a4ff-903d-4658-8f3a-38bd319c8502")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 0)
+		(size 2.54 2.54)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ba21bc10-7909-4ad6-8e1c-02d96773bfb6")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.54 2.54)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ae390c90-e964-4aab-9bb1-3aebfcf31f9d")
+	)
+	(pad "3" thru_hole circle
+		(at 3.81 0)
+		(size 2.54 2.54)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9fceaf12-ab8c-4088-b59e-7e35be1e3ab3")
+	)
+	(embedded_fonts no)
+)
