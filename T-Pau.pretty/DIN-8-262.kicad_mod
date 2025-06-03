@@ -1,9 +1,9 @@
-(footprint "DIN-5"
+(footprint "DIN-8-262"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "5-pin DIN connector, 180°, female plug, DIN 41524")
+	(descr "8-pin DIN connector, 262°, plug female, DIN IEC 60574-18")
 	(tags "DIN connector")
 	(property "Reference" "REF**"
 		(at -7.5 2.54 0)
@@ -197,6 +197,30 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "3875bd92-9a0c-456e-8968-f6abfd4e5ca6")
+	)
+	(pad "6" thru_hole circle
+		(at -7.5 -5.1)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "265b7269-3606-45f6-8f9d-0453de8ea39a")
+	)
+	(pad "7" thru_hole circle
+		(at 0 -5.1)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e9bb2be7-ae11-4740-8351-51efc59dff6c")
+	)
+	(pad "8" thru_hole circle
+		(at -15 -5.1)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3a7bb393-fdbe-4599-a6d2-9656a56321ac")
 	)
 	(embedded_fonts no)
 	(model "${KICAD_USER_3DMODEL_DIR}/DIN-Buchse.wrl"
