@@ -1,0 +1,266 @@
+(footprint "Module-16_15x15mm_LongPads"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "12-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads")
+	(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
+	(property "Reference" "REF**"
+		(at 7.112 -2.286 0)
+		(layer "F.SilkS")
+		(uuid "9131339f-5523-4a98-84e0-48c87e21211f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Module-16_15x15mm_LongPads"
+		(at 6.096 15.24 0)
+		(layer "F.Fab")
+		(uuid "c8611b93-9ea4-4a00-95fa-9a93cb2721b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.45 -1.55)
+		(end -1.45 14.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0bab4ac-107b-4029-beae-ff7231035c64")
+	)
+	(fp_line
+		(start -1.45 14.25)
+		(end 14.224 14.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "26818ed7-99f2-4c69-905f-6ee7432d7366")
+	)
+	(fp_line
+		(start 14.224 -1.55)
+		(end -1.45 -1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aee18828-785d-4c5c-a7d1-cb7df383f732")
+	)
+	(fp_line
+		(start 14.224 14.25)
+		(end 14.224 -1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "97e4231c-ea32-4f23-800f-f68089d20242")
+	)
+	(fp_text user "HV"
+		(at 9.144 5.588 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1a0b1cf3-e2c4-4eae-8d7e-4ec5a40a6405")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 7.874 8.128 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4e2458e4-9a56-4552-aa3c-37504cef9fea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 1.778 8.128 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a1de226d-a187-4158-b67c-81db71cece2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "LV"
+		(at 1.778 5.588 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e756c040-6a50-4476-a1ac-eba6e757a90c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.096 6.35 0)
+		(layer "F.Fab")
+		(uuid "c6dad4df-a774-4e8d-9ffd-59e928ab3275")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a8d667a0-77e2-4e05-a4d6-6b4f6000b371")
+	)
+	(pad "2" thru_hole oval
+		(at 0 2.54)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f54a22bb-1efc-4ffe-a99d-0af6ebc0b535")
+	)
+	(pad "3" thru_hole oval
+		(at 0 5.08)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aaf2713e-f9de-47f4-af79-650f0960e4a5")
+	)
+	(pad "4" thru_hole oval
+		(at 0 7.62)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dafb5b4e-6116-423e-8ae9-f4f46862d8c1")
+	)
+	(pad "5" thru_hole oval
+		(at 0 10.16)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "406f9f2b-2cff-4206-b457-7f42c02c2cc6")
+	)
+	(pad "6" thru_hole oval
+		(at 0 12.7)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "676aa2bd-4411-4e00-aefe-476bd5f3a877")
+	)
+	(pad "7" thru_hole oval
+		(at 12.7 12.7)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "738f16a1-dac9-476f-9a7e-ea3663f4830f")
+	)
+	(pad "8" thru_hole oval
+		(at 12.7 10.16)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4672b546-de8b-43fe-b641-d4ef1ec1a854")
+	)
+	(pad "9" thru_hole oval
+		(at 12.7 7.62)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3f35175f-b38e-4aee-b05d-d3a8a4530843")
+	)
+	(pad "10" thru_hole oval
+		(at 12.7 5.08)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a348aeb2-7d0a-480b-a0a7-800097e93f6d")
+	)
+	(pad "11" thru_hole oval
+		(at 12.7 2.54)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "27cd12f3-c2da-498c-a01c-cb91d3b3bd5e")
+	)
+	(pad "12" thru_hole oval
+		(at 12.7 0)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5d638dde-bb95-4474-b6f5-9e6fcaae0f2d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-12_W7.62mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
