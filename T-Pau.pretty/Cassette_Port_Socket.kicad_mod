@@ -1,0 +1,206 @@
+(footprint "Cassette_Port_Socket"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "CN1"
+		(at 25.5 -1.1 0)
+		(layer "F.SilkS")
+		(uuid "e2435073-58e1-4b80-a315-6c1b607436e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Cassette_Port_Socket"
+		(at 12.88 1 0)
+		(layer "F.Fab")
+		(uuid "9a47d87d-1424-4066-957f-f731e735c967")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c132dd29-daaf-4ac5-9439-6a35f2b10c66")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0003f2cf-69ab-4a99-be37-c721f189eb71")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -10.75 0)
+		(end 34.25 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d2095c2-d30a-4625-8c3e-0c031289bf7a")
+	)
+	(fp_line
+		(start -10.75 6.5)
+		(end -10.75 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d7776155-1f18-45e8-93dd-9de253246794")
+	)
+	(fp_line
+		(start -4 6.5)
+		(end -10.75 6.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3a2429f8-b41d-431e-b54e-0cc7800d43a0")
+	)
+	(fp_line
+		(start -4 12)
+		(end -4 6.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1ee79b20-9fbd-49ba-ba55-b7635f100c30")
+	)
+	(fp_line
+		(start 27.5 6.5)
+		(end 27.5 12)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2c882e6-2653-4dd0-b000-c917f3a48ed9")
+	)
+	(fp_line
+		(start 27.5 12)
+		(end -4 12)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e76337d3-0501-4268-aac1-330ccacc5031")
+	)
+	(fp_line
+		(start 34.25 0)
+		(end 34.25 6.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7d95fb84-a821-4449-9117-28f3b9e982c2")
+	)
+	(fp_line
+		(start 34.25 6.5)
+		(end 27.5 6.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "568574f8-58c5-44ef-a15e-6cbb31e788e4")
+	)
+	(pad "1" smd rect
+		(at 21.78 -4.7)
+		(size 2.2 8.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "65debb32-0b29-46b3-8306-b456d0e46323")
+	)
+	(pad "2" smd rect
+		(at 17.82 -4.7)
+		(size 2.2 8.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b91f57b8-978d-44df-af31-50c20a013f90")
+	)
+	(pad "3" smd rect
+		(at 13.86 -4.7)
+		(size 2.2 8.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eb2a4dc2-4d34-49d7-8965-12813a90a89a")
+	)
+	(pad "4" smd rect
+		(at 9.9 -4.7)
+		(size 2.2 8.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2b0c660a-3362-4dfe-8525-4ffae31d4865")
+	)
+	(pad "5" smd rect
+		(at 5.94 -4.7)
+		(size 2.2 8.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "10e32560-17fe-400d-821d-4099721b1db8")
+	)
+	(pad "6" smd rect
+		(at 1.98 -4.7)
+		(size 2.2 8.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e9a1689f-fb83-4d0a-999f-b2a9bb147f8f")
+	)
+	(pad "A" smd rect
+		(at 21.78 -4.7)
+		(size 2.2 8.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "746adf89-e358-483e-8c81-4679e99317fe")
+	)
+	(pad "B" smd rect
+		(at 17.82 -4.7)
+		(size 2.2 8.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "24573a08-740e-4895-badf-fc3973b8bb0d")
+	)
+	(pad "C" smd rect
+		(at 13.86 -4.7)
+		(size 2.2 8.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "d4ea4e52-c3b8-4293-a122-55c86ec8cc67")
+	)
+	(pad "D" smd rect
+		(at 9.9 -4.7)
+		(size 2.2 8.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "602beba2-04b9-4d06-bf4f-3c77d11951fa")
+	)
+	(pad "E" smd rect
+		(at 5.94 -4.7)
+		(size 2.2 8.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "2b76165d-db3f-48cf-9178-08cbaf537bd9")
+	)
+	(pad "F" smd rect
+		(at 1.98 -4.7)
+		(size 2.2 8.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "201d81ef-cf70-4192-a2a9-d390fe05f99a")
+	)
+	(embedded_fonts no)
+)
